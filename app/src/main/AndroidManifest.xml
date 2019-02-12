@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="me.kirkhorn.knut.android_sudoku">
 
@@ -49,6 +50,13 @@
         <activity android:name=".GameDifficultyActivity">
             <intent-filter>
                 <action android:name="me.kirkhorn.knut.GameDifficultyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Choix">
+            <intent-filter>
+                <action android:name="me.kirkhorn.knut.Choix" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
