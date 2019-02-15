@@ -16,7 +16,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import me.kirkhorn.knut.android_sudoku.fragments.CellGroupFragment;
-import me.kirkhorn.knut.android_sudoku.model.Board;
+import me.kirkhorn.knut.android_sudoku.models.Board;
 
 /**
  * Created by Knut on 19.11.2017.

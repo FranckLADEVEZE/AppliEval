@@ -35,7 +35,6 @@ public class Choix extends AppCompatActivity {
     }
 
     private void refreshViewLanguages() {
-        Log.i(TAG, "Refreshing View Languages");
         Button buttonStartNewGame = findViewById(R.id.buttonStartNewGame);
         buttonStartNewGame.setText(R.string.new_game);
         Button buttonShowInstructions = findViewById(R.id.buttonShowInstructions);

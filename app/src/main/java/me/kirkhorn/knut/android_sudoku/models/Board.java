@@ -1,4 +1,4 @@
-package me.kirkhorn.knut.android_sudoku.model;
+package me.kirkhorn.knut.android_sudoku.models;
 
 import java.util.ArrayList;
 
